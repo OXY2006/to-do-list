@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple To-Do List</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="todo-header">
-            <h2>ToDo List</h2>
-            <img src="./arrangement-desk-elements-yellow-background.jpg" height="50px" />
-        </div>
-        <div class="todo-body">
-            <input type="text" id="todoText" class="todo-input" placeholder="Add your items" />
-            <img src="./plus.jpg" alt="+" id="AddUpdateClick" onclick="CreateToDoItems();"/>
-        </div>
-        <h5 id="Alert"></h5>
-        <ul id="list-items" class="list-items"></ul>
+  <div class="container">
+    <h2 class="title">📝 To-Do List</h2>
+
+
+    <div class="todo-input-section">
+      <input type="text" id="todoInput" placeholder="Enter a new task..." />
+      <button id="addBtn">Add</button>
     </div>
+
+    <p id="message"></p>
+
+   
+    <ul id="todoList"></ul>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
