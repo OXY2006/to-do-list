@@ -1,0 +1,27 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "to do list",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OXY2006/to-do-list.git"
+  },
+  "author": "blah blah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OXY2006/to-do-list/issues"
+  },
+  "homepage": "https://github.com/OXY2006/to-do-list#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.3"
+  }
+}
